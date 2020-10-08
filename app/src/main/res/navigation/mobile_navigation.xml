@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_airplanes">
+
+    <fragment
+        android:id="@+id/navigation_airplanes"
+        android:name="com.appcent.aircent.ui.airplanes.AirplanesFragment"
+        android:label="@string/title_airplanes"
+        tools:layout="@layout/fragment_airplanes" />
+
+    <fragment
+        android:id="@+id/navigation_airlines"
+        android:name="com.appcent.aircent.ui.airlines.AirlinesFragment"
+        android:label="@string/title_airlines"
+        tools:layout="@layout/fragment_airlines" />
+
+    <fragment
+        android:id="@+id/navigation_destinations"
+        android:name="com.appcent.aircent.ui.destinations.DestinationsFragment"
+        android:label="@string/title_destinations"
+        tools:layout="@layout/fragment_destinations" />
+    <fragment
+        android:id="@+id/navigation_flights"
+        android:name="com.appcent.aircent.ui.flights.FlightsFragment"
+        android:label="@string/title_flights"
+        tools:layout="@layout/flights_fragment" />
+</navigation>

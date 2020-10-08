@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_airplanes"
+        android:icon="@drawable/ic_airplane_white"
+        android:title="@string/title_airplanes" />
+
+    <item
+        android:id="@+id/navigation_airlines"
+        android:icon="@drawable/ic_airline_white"
+        android:title="@string/title_airlines" />
+
+    <item
+        android:id="@+id/navigation_destinations"
+        android:icon="@drawable/ic_destination_white"
+        android:title="@string/title_destinations" />
+
+    <item
+        android:id="@+id/navigation_flights"
+        android:icon="@drawable/ic_flight_white"
+        android:title="@string/title_flights" />
+
+</menu>
